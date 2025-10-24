@@ -29,9 +29,10 @@ if settings.startup["wood-logistics-woodtronics"].value then
         {icon=data.raw.item[lumber_item].icon, shift={-12, -12}, scale=0.4, draw_background=true}
       },
       category = data.raw.recipe["electronic-circuit"].category,
-      order = "b[circuits]-a[a-electronic-circuit]",
+      order = "b[circuits]-a[electronic-circuit]b",
       enabled = false,
       allow_productivity = true,
+      hide_from_signal_gui = false,
       energy_required = 1,
       ingredients = {
         {type="item", name=lumber_item, amount=1},

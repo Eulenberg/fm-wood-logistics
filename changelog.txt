@@ -1,6 +1,8 @@
 ---------------------------------------------------------------------------------------------------
 Version: 2.5.5
 Date: ????
+  Changes:
+    - Allow setting the electronic circuit from lumber recipe via circuit signal
   Compatibility:
     - Voidcraft: Add fluxize and coherize recipe variants
 ---------------------------------------------------------------------------------------------------
